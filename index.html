@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malik-Pizza-Buffet</title>
     <link rel="shortcut icon" href="./images/icon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="logo">
-        <img src="./images/pizza1.jpeg" alt="logo">
-        <p>We provide the best services</p>
-        <p>At the right prices</p>
+            <img src="./images/pizza1.jpeg" alt="logo">
+            <p>We provide the best services</p>
+            <p>At the right prices</p>
         </div>
         <br>
         <div class="landing">
             <div class="overlay">
                 <div id="push"></div>
                 <div class="landing-text">
-                    <h1 class="text-grey text-center"><span class="pizz">Malik-Pizza</span><span class="exc">-Buffet!</span></h1>
-                    <h2 class="text-black text-center">Get yourself a treat with our By one Get one Big slice pizza special today!!!.</h2>
+                    <h1 class="text-maroon text-center"><span class="pizz">Malik-Pizza</span><span
+                            class="exc">-Buffet!</span></h1>
+                    <h2 class="text-black text-center">Get yourself a treat with our By one ,Get one Big slice pizza
+                        special today!!!.</h2>
                 </div>
                 <div class="h-buttons text-center">
                     <a href="#welcome">
@@ -39,85 +44,100 @@
         </div>
 
         <div id="menus">
-<br>
-<div class="menu col-md-12">
-    <div class="menu-overlay">
-        <h1 class="text-center text-white" id="menu">Menu</h1>
-        <div class="pizza-menu row text-center">
-            <figure class="col-sm-4">
-                <img src="./images/medium.jpeg" alt="small" class="wiggle">
-                <figcaption class="text-white">Small<br>Ksh. 500</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-                <img src="./images/small.jpeg" alt="medium" class="wiggle">
-                <figcaption class="text-white">Medium<br>Ksh. 1000</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-                <img src="./images/large.jpg" alt="large-pizza" class="wiggle">
-                <figcaption class="text-white">Large<br>Ksh. 1300</figcaption>
-            </figure>
-        </div>
-    </div>
-</div>
-<div class="Details" id="order">
-    <h1 class="text-center" id="order-pizza">Order Menu</h1>
-    <div class="form-group row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8 order-overlay text-center">
-            <form class="col-sm-6 offset-sm-3 text-center">
-                <label>Choose your preferred size:</label>
-                <select class="custom-select custom-select-md mb-3" id="size" needed>
-                    <option value="regular">Small</option>
-                    <option value="medium">Medium</option>
-                    <option value="large">Large</option>
-                </select>
-                <label for="crust">Choose your preferred crust:</label>
-                <select class="custom-select custom-select-md mb-3" id="crust" needed>
-                    <option value="Crispy">Crispy @ Ksh. 200</option>
-                    <option value="Stuffed">Stuffed @ Ksh. 300</option>
-                    <option value="Gluten-free">Gluten-free @ Ksh. 100</option>
-                </select>
-                <label>Choose your preferred topping(s)</label>
-                <select class="custom-select custom-select-md mb-3" id="toppings" needed>
-                    <option value="Pineapple">Pineapple @ sh. 100</option>
-                    <option value="Bacon">Bacon Ksh. 100</option>
-                    <option value="Sausage">Sausage Ks@ sh. 100</option>
-                    <option value="Mushrooms">Mushrooms @ Ksh. 100</option>
-                    <option value=""></option>
-                    <option value="beef">Beef Peperoni @ sh. 150</option>
-                    <option value="chicken">Chicken Peporoni @ sh. 150</option>
-                </select>
-                <label for="number">Choose Number of Pizza's</label>
-                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" needed>
-                   <br>
-                <div class="d-block mx-auto text-center">
-                    <h4>Collection Method</h4>
-                    <button class='delivery'>Make a Delivery</button>
-                    <button class='pick-up'> Physical Pick Up</button>
-                </div>
-            </form>
             <br>
-            <div class="cdata-overlay">
-                <div class="customerdata row">
-                    <div class="col-sm-3"></div>
-                    <form action="" class="form-group col-sm-6 data">
-                        <h4>If Delivery:</h4>
-                        <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                        <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                        <input type="text" class="form-control cdata" placeholder="Enter your location: ">
-                        <button class="btn bg-info text-center d-block mx-auto go">Submit</button>
+            <div class="menu col-md-12">
+                <div class="menu-overlay">
+                    <h1 class="text-center text-white" id="menu">Menu</h1>
+                    <div class="pizza-menu row text-center">
+                        <figure class="col-sm-4">
+                            <div class="card1">
+                                <img src="./images/medium.jpeg" alt="small" class="wiggle">
+                                <figcaption class="text-white">Small<br>Ksh. 500</figcaption>
+                            </div>
+                        </figure>
+                        <figure class="col-sm-4">
+                            <img src="./images/small.jpeg" alt="medium" class="wiggle">
+                            <figcaption class="text-white">Medium<br>Ksh. 1000</figcaption>
+                        </figure>
+                        <figure class="col-sm-4">
+                            <img src="./images/large.jpg" alt="large-pizza" class="wiggle">
+                            <figcaption class="text-white">Large<br>Ksh. 1300</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="Details" id="order">
+                <h1 class="text-center" id="order-pizza">Order Menu</h1>
+                <div class="form-group row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8 order-overlay text-center">
+                        <form class="col-sm-6 offset-sm-3 text-center">
+                            <label>Choose your preferred size:</label>
+                            <select class="custom-select custom-select-md mb-3" id="size" needed>
+                                <option value="regular">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                            <label for="crust">Choose your preferred crust:</label>
+                            <select class="custom-select custom-select-md mb-3" id="crust" needed>
+                                <option value="Crispy">Crispy @ Ksh. 200</option>
+                                <option value="Stuffed">Stuffed @ Ksh. 300</option>
+                                <option value="Gluten-free">Gluten-free @ Ksh. 100</option>
+                            </select>
+                            <label>Choose your preferred topping(s)</label>
+                            <select class="custom-select custom-select-md mb-3" id="toppings" needed>
+                                <option value="Pineapple">Pineapple @ sh. 100</option>
+                                <option value="Bacon">Bacon Ksh. 100</option>
+                                <option value="Sausage">Sausage Ks@ sh. 100</option>
+                                <option value="Mushrooms">Mushrooms @ Ksh. 100</option>
+                                <option value=""></option>
+                                <option value="beef">Beef Peperoni @ sh. 150</option>
+                                <option value="chicken">Chicken Peporoni @ sh. 150</option>
+                            </select>
+                            <label for="number">Choose Number of Pizza's</label>
+                            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                                needed>
+                            <br>
+                            <div class="col-xs-4" id="price-content">
+                                <h1 class="page-header">Cart</h1>
+                                <h2>Price: Ksh <span id="final-cost"></span></h2><br><br>
+                                <div id="deliver" class="deliver">
+                                </div>
+                                <div class="d-block mx-auto text-center">
+                                    <h4>Collection Method</h4>
+                                    <button class='delivery'>Make a Delivery</button>
+                                    <button class='pick-up'> Physical Pick Up</button>
+                                </div>
+                        </form>
                         <br>
-                    <div class="col-sm-2">
-    
-                    <h4>Get total</h4>
-                        <button type="submit" class="btn btn-success checkout" id="checkout">
-                            Checkout
-                        </button>
-                </div> 
-            </form>       
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
- <script src="./js/script.js"></script>   
+                        <div class="cdata-overlay">
+                            <div class="customerdata row">
+                                <div class="col-sm-3"></div>
+                                <form action="" class="form-group col-sm-6 data">
+                                    <h4>If Delivery:</h4>
+                                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                                    <input type="text" class="form-control cdata"
+                                        placeholder="Enter your phone number: ">
+                                    <input type="text" class="form-control cdata" placeholder="Enter your location: ">
+                                    <button class="btn bg-info text-center d-block mx-auto go">Submit</button>
+                                    <br>
+                                    <div class="col-sm-2">
+                                        <h4>Get total</h4>
+                                        <button type="submit" class="btn btn-success checkout" id="checkout">
+                                            <h5>Checkout</h5>
+                                        </button>
+                                        <div id="order-details" class="col-xs-12">
+                                            <ul id="pizza-details"><strong>Your order is: </strong></ul>
+                                            <h5 id="pizza-details">Thank you and Welcome again!</h5>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p class="copyright"> © 2021 Malik-Pizza-Buffet </p>
+                            </div>
+                            <script src="https://code.jquery.com/jquery-3.6.0.js"
+                                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+                            </script>
+                            <script src="./js/script.js"></script>
 </body>
+
 </html>

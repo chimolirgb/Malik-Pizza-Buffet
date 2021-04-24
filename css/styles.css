@@ -1,9 +1,16 @@
 .logo{
      text-align: center; 
     margin: 0;
-background-color: indianred;
     
 }
 .landing{
-    
+    align-items: center;
+    font-style: italic;
+
+}
+exc{
+    text-decoration-color: rgb(80, 3, 3);
+}
+card1{
+    background-color: black;
 }
