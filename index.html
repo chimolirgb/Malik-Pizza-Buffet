@@ -14,7 +14,7 @@
 
 <body>
     <div class="container">
-        <div class="logo">
+         <div class="logo">
             <img src="./images/pizza1.jpeg" alt="logo">
             <p>We provide the best services</p>
             <p>At the right prices</p>
@@ -30,7 +30,7 @@
                         special today!!!.</h2>
                 </div>
                 <div class="social-buttons text-center">
-                        <button class="btn"> Let's Go</button>
+                    <button class="btn"> Let's Go</button>
                     <div class="socials">
                         <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
                         <a href=""><span class="fab fa-You-tube"></span></a>
@@ -40,7 +40,6 @@
                 </div>
             </div>
         </div>
-
         <div id="menu">
             <br>
             <div class="menus col-md-12">
@@ -51,8 +50,8 @@
                             <div class="card1">
                                 <div class="card-body">
                                     <h5 class="card-title">Small Size</h5>
-                                    <img src="./images/medium.jpeg" alt="small" class="wiggle">
-                                    <figcaption class="text-white">Small<br>Ksh. 500</figcaption>
+                                    <img src="./images/medium.jpeg" alt="small">
+                                    <imgcaption>Small<br>Ksh. 500</imgaption>
                                 </div>
                             </div>
                         </figure>
@@ -60,8 +59,8 @@
                             <div class="card2">
                                 <div class="card-body">
                                     <h5 class="card-title">Medium Size</h5>
-                                    <img src="./images/small.jpeg" alt="medium" class="wiggle">
-                                    <figcaption class="text-white">Medium<br>Ksh. 1000</figcaption>
+                                    <img src="./images/small.jpeg" alt="medium">
+                                    <imgcaption>Medium<br>Ksh. 1000</imgcaption>
                                 </div>
                             </div>
                         </figure>
@@ -69,19 +68,19 @@
                             <div class="card3">
                                 <div class="card-body">
                                     <h5 class="card-title">Large Size</h5>
-                                    <img src="./images/large.jpg" alt="large-pizza" class="wiggle">
-                                    <figcaption class="text-white">Large<br>Ksh. 1300</figcaption>
+                                    <img src="./images/large.jpg" alt="large-pizza">
+                                    <imgcaption>Large<br>Ksh. 1300</imgcaption>
                                 </div>
                             </div>
                         </figure>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="Details" id="order">
             <h1 class="text-center" id="order-pizza">Order Menu</h1>
             <div class="form-group row">
-                <div class="col-sm-2">
+                <div class="col-sm-12">
                     <div class="col-s-8 order-overlay text-center">
                         <form class="col-sm-6 offset-sm-3 text-center" id="chosen-pizza">
                             <label>Choose your preferred size:</label>
@@ -109,43 +108,46 @@
                             <label for="number">Choose Number of Pizza's</label>
                             <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
                                 needed>
-                            </form>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
-            <br>
-                            <div class="col-xs-4" id="price-content">
-                                <h1 class="page-header">Cart</h1>
-                                <h2>Price: Ksh <span id="final-cost"></span></h2><br><br>
-                                <div id="deliver" class="deliver">
-                                </div>
-                            </div>
-            <br>
-            <div class="cdata-overlay">
-                <div class="customerdata row">
-                    <div class="col-sm-3">
-                    <form action="" class="form-group col-sm-6 data" id="address-form">
+    
+         <br>
+        <div class="col-sm-12" id="price-content">
+            <h1 class="page-header">Cart</h1>
+            <h2>Price: Ksh <span id="finalCost"></span></h2><br><br>
+            <div id="deliver" class="deliver">
+                <h5>The delivery charges are Ksh100</h5> 
+            </div>
+        </div>
+    </div>
+        <br>
+        <div class="cdata-overlay">
+            <div class="customerdata row">
+                <div class="col-sm-12">
+                    <form action="" class="form-group col-sm-10 data" id="address-form">
                         <h4>If Delivery:</h4>
                         <input id="location" type="text" class="form-control cdata" placeholder="Enter your location: "
                             needed>
-                        <button id="input-pizza" class="btn bg-info text-center d-block mx-auto go" type="submit">Make Order</button>
+                        <button id="input-pizza" class="btn bg-info text-center d-block mx-auto go" type="submit">Make
+                            Order</button>
                         <h3><span id="delivery-option"></span></h3>
                     </form>
                 </div>
             </div>
         </div>
-                    <br>
-                    <div class="col-sm-2">
-                        <h4>Get total</h4>
-                        <button type="submit" class="btn btn-success checkout" id="check-out">
-                            <h5>Checkout</h5>
-                        </button>
-                        <ul id="pizza-details"><strong>Your order states: </strong></ul>
-                        <h5 id="pizza-details">Thank you and Enjoy!!!</h5>
-                    </div>
-              
-        <p class="copyright"> © 2021 Malik-Pizza-Buffet </p>
+        <br>
+        <div class="col-sm-12">
+            <h4>Get total</h4>
+            <button type="submit" class="btn btn-success checkout" id="check-out">
+                <h5>Checkout</h5>
+            </button>
+            <ul id="pizza-details"><strong>Your order states: </strong></ul>
+            <h5 id="pizza-details">Thank you and Enjoy!!!</h5>
+        </div>
+
+        <p class="copyright"> © 2021 Malik-Pizza-Buffet </p> 
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">

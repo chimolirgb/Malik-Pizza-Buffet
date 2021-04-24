@@ -1,6 +1,5 @@
  $(document).ready(function() {
-//      $("#order").hide();
-//      $("#deliver").hide();
+
     // Business Logic
     var totalPrice = [];
     function Order(toppings, crust, size, amount) {
@@ -52,7 +51,7 @@ Order.prototype.finalCost = function() {
   }
   return cartTotalPrice;
 };
-$(".btn.check-out").click(function() {
+$("#check-out").click(function() {
 });
 $("form#chosen-pizza").submit(function(event) {
   event.preventDefault();
