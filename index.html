@@ -24,15 +24,13 @@
             <div class="overlay">
                 <div id="push"></div>
                 <div class="landing-text">
-                    <h1 class="text-maroon text-center"><span class="pizz">Malik-Pizza</span><span
-                            class="exc">-Buffet!</span></h1>
+                    <h1 class="text-maroon text-center"><span class="pizza">Malik-Pizza</span><span
+                            class="excess">-Buffet!</span></h1>
                     <h2 class="text-black text-center">Get yourself a treat with our By one ,Get one Big slice pizza
                         special today!!!.</h2>
                 </div>
-                <div class="h-buttons text-center">
-                    <a href="#welcome">
-                        <button class="btn bg-info floater  infinite delay-2s"> Let's Go</button>
-                    </a>
+                <div class="social-buttons text-center">
+                        <button class="btn"> Let's Go</button>
                     <div class="socials">
                         <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
                         <a href=""><span class="fab fa-You-tube"></span></a>
@@ -43,42 +41,56 @@
             </div>
         </div>
 
-        <div id="menus">
+        <div id="menu">
             <br>
-            <div class="menu col-md-12">
+            <div class="menus col-md-12">
                 <div class="menu-overlay">
                     <h1 class="text-center text-white" id="menu">Menu</h1>
                     <div class="pizza-menu row text-center">
-                        <figure class="col-sm-4">
+                        <figure class="col-md-4">
                             <div class="card1">
-                                <img src="./images/medium.jpeg" alt="small" class="wiggle">
-                                <figcaption class="text-white">Small<br>Ksh. 500</figcaption>
+                                <div class="card-body">
+                                    <h5 class="card-title">Small Size</h5>
+                                    <img src="./images/medium.jpeg" alt="small" class="wiggle">
+                                    <figcaption class="text-white">Small<br>Ksh. 500</figcaption>
+                                </div>
                             </div>
                         </figure>
-                        <figure class="col-sm-4">
-                            <img src="./images/small.jpeg" alt="medium" class="wiggle">
-                            <figcaption class="text-white">Medium<br>Ksh. 1000</figcaption>
+                        <figure class="col-md-4">
+                            <div class="card2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Medium Size</h5>
+                                    <img src="./images/small.jpeg" alt="medium" class="wiggle">
+                                    <figcaption class="text-white">Medium<br>Ksh. 1000</figcaption>
+                                </div>
+                            </div>
                         </figure>
-                        <figure class="col-sm-4">
-                            <img src="./images/large.jpg" alt="large-pizza" class="wiggle">
-                            <figcaption class="text-white">Large<br>Ksh. 1300</figcaption>
+                        <figure class="col-md-4">
+                            <div class="card3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Large Size</h5>
+                                    <img src="./images/large.jpg" alt="large-pizza" class="wiggle">
+                                    <figcaption class="text-white">Large<br>Ksh. 1300</figcaption>
+                                </div>
+                            </div>
                         </figure>
                     </div>
                 </div>
             </div>
-            <div class="Details" id="order">
-                <h1 class="text-center" id="order-pizza">Order Menu</h1>
-                <div class="form-group row">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-8 order-overlay text-center">
-                        <form class="col-sm-6 offset-sm-3 text-center">
+        </div>
+        <div class="Details" id="order">
+            <h1 class="text-center" id="order-pizza">Order Menu</h1>
+            <div class="form-group row">
+                <div class="col-sm-2">
+                    <div class="col-s-8 order-overlay text-center">
+                        <form class="col-sm-6 offset-sm-3 text-center" id="chosen-pizza">
                             <label>Choose your preferred size:</label>
                             <select class="custom-select custom-select-md mb-3" id="size" needed>
-                                <option value="regular">Small</option>
+                                <option value="Small">Small</option>
                                 <option value="medium">Medium</option>
                                 <option value="large">Large</option>
                             </select>
-                            <label for="crust">Choose your preferred crust:</label>
+                            <label for="Crust">Choose your preferred crust:</label>
                             <select class="custom-select custom-select-md mb-3" id="crust" needed>
                                 <option value="Crispy">Crispy @ Ksh. 200</option>
                                 <option value="Stuffed">Stuffed @ Ksh. 300</option>
@@ -87,57 +99,58 @@
                             <label>Choose your preferred topping(s)</label>
                             <select class="custom-select custom-select-md mb-3" id="toppings" needed>
                                 <option value="Pineapple">Pineapple @ sh. 100</option>
-                                <option value="Bacon">Bacon Ksh. 100</option>
-                                <option value="Sausage">Sausage Ks@ sh. 100</option>
+                                <option value="Bacon">Bacon Ksh. 200</option>
+                                <option value="Sausage">Sausage Ks@ sh. 200</option>
                                 <option value="Mushrooms">Mushrooms @ Ksh. 100</option>
                                 <option value=""></option>
                                 <option value="beef">Beef Peperoni @ sh. 150</option>
-                                <option value="chicken">Chicken Peporoni @ sh. 150</option>
+                                <option value="chicken">Chicken Peporoni @ sh. 200</option>
                             </select>
                             <label for="number">Choose Number of Pizza's</label>
                             <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
                                 needed>
-                            <br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
                             <div class="col-xs-4" id="price-content">
                                 <h1 class="page-header">Cart</h1>
                                 <h2>Price: Ksh <span id="final-cost"></span></h2><br><br>
                                 <div id="deliver" class="deliver">
                                 </div>
-                                <div class="d-block mx-auto text-center">
-                                    <h4>Collection Method</h4>
-                                    <button class='delivery'>Make a Delivery</button>
-                                    <button class='pick-up'> Physical Pick Up</button>
-                                </div>
-                        </form>
-                        <br>
-                        <div class="cdata-overlay">
-                            <div class="customerdata row">
-                                <div class="col-sm-3"></div>
-                                <form action="" class="form-group col-sm-6 data">
-                                    <h4>If Delivery:</h4>
-                                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                                    <input type="text" class="form-control cdata"
-                                        placeholder="Enter your phone number: ">
-                                    <input type="text" class="form-control cdata" placeholder="Enter your location: ">
-                                    <button class="btn bg-info text-center d-block mx-auto go">Submit</button>
-                                    <br>
-                                    <div class="col-sm-2">
-                                        <h4>Get total</h4>
-                                        <button type="submit" class="btn btn-success checkout" id="checkout">
-                                            <h5>Checkout</h5>
-                                        </button>
-                                        <div id="order-details" class="col-xs-12">
-                                            <ul id="pizza-details"><strong>Your order is: </strong></ul>
-                                            <h5 id="pizza-details">Thank you and Welcome again!</h5>
-                                        </div>
-                                    </div>
-                                </form>
-                                <p class="copyright"> © 2021 Malik-Pizza-Buffet </p>
                             </div>
-                            <script src="https://code.jquery.com/jquery-3.6.0.js"
-                                integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
-                            </script>
-                            <script src="./js/script.js"></script>
+            <br>
+            <div class="cdata-overlay">
+                <div class="customerdata row">
+                    <div class="col-sm-3">
+                    <form action="" class="form-group col-sm-6 data" id="address-form">
+                        <h4>If Delivery:</h4>
+                        <input id="location" type="text" class="form-control cdata" placeholder="Enter your location: "
+                            needed>
+                        <button id="input-pizza" class="btn bg-info text-center d-block mx-auto go" type="submit">Make Order</button>
+                        <h3><span id="delivery-option"></span></h3>
+                    </form>
+                </div>
+            </div>
+        </div>
+                    <br>
+                    <div class="col-sm-2">
+                        <h4>Get total</h4>
+                        <button type="submit" class="btn btn-success checkout" id="check-out">
+                            <h5>Checkout</h5>
+                        </button>
+                        <ul id="pizza-details"><strong>Your order states: </strong></ul>
+                        <h5 id="pizza-details">Thank you and Enjoy!!!</h5>
+                    </div>
+              
+        <p class="copyright"> © 2021 Malik-Pizza-Buffet </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+    </script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
