@@ -4,11 +4,9 @@ function Order(toppings, crust, size) {
   this.toppings = toppings;
   this.crust = crust;
   this.size = size;
-  // this.pizzaTotal = 0; // checkit out
-  // this.amount = amount; // checkit out
 }
 Order.prototype.pizzaCost = function(){
-  let cost = 0; // checkit out
+  let cost = 0; 
 
   if (this.size === "small") {
     cost += 500;
