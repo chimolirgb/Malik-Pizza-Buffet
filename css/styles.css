@@ -48,5 +48,8 @@ h4{
 }
 
 .images{
-    float: left;
+    
+}
+#pizza-details{
+    display: none;
 }

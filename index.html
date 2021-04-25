@@ -41,29 +41,30 @@
 				</div>
 			</div>
 		</div>
+		<br>
 		<div id="menu">
 			<br>
 			<div class="images">
-			<div class="row text-center">
-				<div class="menu-overlay">
-					<h1 class="text-center text-white" id="menu">Menu</h1>
-							<div class='col-md-4'>
-								 <div class="card33" style="width: 12rem;">
-									<div class="card-body"> 
+				<div class="row text-center">
+					<div class="menu-overlay">
+						<h1 class="text-center text-white" id="menu">Menu</h1>
+						<div class='col-md-4'>
+							<div class="card33" style="width: 12rem;">
+								<div class="card-body">
 									<h5 class="card-title">Small Size</h5>
 									<img src="./images/small.jpeg" alt="small" class="imgstyle">
 									<imgcaption class="text-center text-white"><br> Ksh. 500</imgaption>
 								</div>
-							</div> 
+							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="card2" style="width: 12rem;" >
-								<div class="card-body"> 
+							<div class="card2" style="width: 12rem;">
+								<div class="card-body">
 									<h5 class="card-title">Medium Size</h5>
 									<img src="./images/medium.jpeg" alt="medium" class="imgstyle">
 									<imgcaption class="text-center text-white"><br>Ksh. 1000</imgcaption>
-								 </div>
-							</div> 
+								</div>
+							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="card3" style="width: 12rem;">
@@ -72,13 +73,14 @@
 									<img src="./images/pizz.jpeg" alt="large-pizza" class="imgstyle">
 									<imgcaption class="text-center text-white"><br>Ksh. 1300</imgcaption>
 								</div>
-							</div> 
-				    	</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		</div>
-	</div>
-		<div class="Details" id="order"text-color : white >
+		<br>
+		<div class="Details" id="order" text-color : white>
 			<h1 class="text-center text-white" id="order-pizza">Order Menu</h1>
 			<div class="form-group row">
 				<div class="col-sm-12">
@@ -136,24 +138,34 @@
 				<div class="col-sm-12">
 					<form action="" class="form-group col-sm-10 data" id="address-form">
 						<h4>If Delivery:</h4>
-						<input id="location" type="text" class="form-control cdata" placeholder="Enter your location: "
-							needed>
-							<h5>The delivery charges are Ksh100</h5>
-						<button id="input-pizza" class="btn bg-info text-center d-block mx-auto go" type="submit">Make
-							Order</button>
-						<h3><span id="delivery-option"></span></h3>
-					
-			<h4>Get total</h4>
-			<button type="submit" class="btn btn-success checkout" id="check-out">
-				<h5>Checkout</h5>
-			</button>
-			<h5 id="pizza-details">Thank you and Enjoy!!!</h5>
-		</form>
+
+						<label>Choose mode of picking:</label>
+						<select class="custom-select custom-select-md mb-3" id="choice" needed>
+							<option value="">---</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<br>
+
+							<input id="location" type="text" class="form-control cdata"
+								placeholder="Enter your location: " needed>
+							<br>
+							<br>
+							<button id="input-pizza" class="btn bg-info text-center d-block mx-auto go"
+								type="submit">Make
+								Order</button>
+							<h3><span id="delivery-option"></span></h3>
+							<br>
+							<h4>Get total</h4>
+							<button type="submit" class="btn btn-success checkout" id="check-out">
+								<h5>Checkout</h5>
+							</button>
+							<h5 id="pizza-details">Thank you and Enjoy!!!</h5>
+					</form>
+				</div>
+			</div>
 		</div>
-		</div>
-		</div>
-	<p class="copyright"> © 2021 Malik-Pizza-Buffet  </p>
-</div>
+		<p class="copyright"> © 2021 Malik-Pizza-Buffet </p>
+	</div>
 	<script src="https://code.jquery.com/jquery-3.6.0.js"
 		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
 	</script>

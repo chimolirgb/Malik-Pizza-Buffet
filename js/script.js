@@ -1,3 +1,5 @@
+//user logic
+
 var totalPrice = [];
 
 function Order(toppings, crust, size) {
@@ -63,6 +65,7 @@ Order.prototype.finalCost = function (){
   return cartTotalPrice;
 };
 
+//Business logic
 
 $(document).ready(function () {
   $("#check-out").click(function () {});
@@ -73,7 +76,7 @@ $(document).ready(function () {
     var crust = $("select#crust").val();
     var toppings = $("select#toppings").val();
     var numbers = parseInt($("input#number").val()); 
-    var pizzaDetails = (size + " - " + crust + " - " + toppings);//
+    var pizzaDetails = (size + " - " + crust + " - " + toppings);
 
     var newPizzaOrder = new Order(toppings, crust, size);
 
@@ -86,6 +89,14 @@ $(document).ready(function () {
     $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
     // $("#size, #crust, #toppings,").val("");
   });
+
+  jQuery("#choice") .click(function(){
+    alert("The delivery charges are Ksh.100")
+});
+
+// $("#location") .click(function(){
+//   alert("Your order will be delivered to your location")
+// })
 
   $("#input-pizza").click(function () {
     $("#deliver").toggle();
