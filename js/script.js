@@ -69,7 +69,7 @@ $(document).ready(function () {
     var crust = $("select#crust").val();
     var toppings = $("select#toppings").val();
     var numbers = parseInt($("input#number").val()); 
-    var pizzaDetails = (size + " - " + crust + " - " + toppings);
+    var pizzaDetails = (size + " - " + crust + " - " + toppings);//
 
     var newPizzaOrder = new Order(toppings, crust, size);
 
@@ -77,8 +77,8 @@ $(document).ready(function () {
 
     totalPrice.push(newPizzaOrder.pizzaCost());
 
-    let finTotal = newPizzaOrder.finalCost() * numbers; // checkit out
-    $("#finalCost").text(finTotal); // checkit out
+    let finTotal = newPizzaOrder.finalCost() * numbers; 
+    $("#finalCost").text(finTotal); 
     $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
     // $("#size, #crust, #toppings,").val("");
   });
