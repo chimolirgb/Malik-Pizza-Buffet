@@ -41,9 +41,9 @@ Order.prototype.pizzaCost = function(){
   } else if (this.toppings === "beef") {
     cost += 200;
   }else{
-    alert("choose toppings") // checkit out
+    alert("choose toppings") 
   }
-  return this.cost = cost; // checkit out
+  return this.cost = cost; 
 };
 
 
@@ -53,7 +53,7 @@ function Address(address) {
 }
 
 Order.prototype.finalCost = function (){
-  var cartTotalPrice = 0; // checkit out
+  var cartTotalPrice = 0;
   for (var arrayValue = 0; arrayValue < totalPrice.length; arrayValue++) {
     cartTotalPrice += totalPrice[arrayValue];
   }
@@ -68,14 +68,14 @@ $(document).ready(function () {
     var size = $("select#size").val();
     var crust = $("select#crust").val();
     var toppings = $("select#toppings").val();
-    var numbers = parseInt($("input#number").val()); // checkit out
+    var numbers = parseInt($("input#number").val()); 
     var pizzaDetails = (size + " - " + crust + " - " + toppings);
 
     var newPizzaOrder = new Order(toppings, crust, size);
 
-    newPizzaOrder.pizzaCost(); // checkit out
+    newPizzaOrder.pizzaCost();
 
-    totalPrice.push(newPizzaOrder.pizzaCost()); // checkit out
+    totalPrice.push(newPizzaOrder.pizzaCost());
 
     let finTotal = newPizzaOrder.finalCost() * numbers; // checkit out
     $("#finalCost").text(finTotal); // checkit out
