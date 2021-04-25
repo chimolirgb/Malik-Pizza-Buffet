@@ -8,12 +8,11 @@
     font-style: italic;
 
 }
-exc{
-    text-decoration-color: rgb(80, 3, 3);
+
+.landing{
+    background-image: url(../images/plain2.svg);
 }
-card33{
-    background-color:rgb(17, 3, 6);
-}
+
 .Details{
     background-image: url(../images/plain2.svg);
     font-size: xx-large;
@@ -38,7 +37,14 @@ h4{
     font: xx-large;
     font-weight: 600;  
 }
-.menus{
+#menu{
     background-image: url(../images/plain4.svg);
     background-size: cover;
+    overflow: hidden;
+}
+.imgstyle{
+ width: 400px;
+ height: 300px;
+ object-position: center;
+ float: left;
 }
