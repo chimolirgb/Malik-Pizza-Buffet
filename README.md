@@ -9,8 +9,6 @@
  This is a  web application where customers  are able to order different sizes of pizzas with one or more toppings and a crust of their own choice. This web also gives an option of picking physically or getting a delivery. 
 
  ## Project Screenshot
- 
-
 
 # Prerequisites
 You need to have git installed
