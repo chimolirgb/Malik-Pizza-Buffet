@@ -15,7 +15,7 @@ Order.prototype.pizzaCost = function(){
   } else if (this.size === "large") {
     cost += 1300;
   } else{
-    alert("choose size") // checkit out
+    alert("choose size") 
   }
 
   if (this.crust === "Crispy") {
@@ -25,7 +25,7 @@ Order.prototype.pizzaCost = function(){
   } else if (this.crust === "Gluten-free") {
     cost += 100;
   }else{
-    alert("choose crust") // checkit out
+    alert("choose crust") 
   }
 
   if (this.toppings === "Pineapple") {
