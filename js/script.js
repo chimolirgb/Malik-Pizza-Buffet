@@ -5,6 +5,7 @@ function Order(toppings, crust, size) {
   this.crust = crust;
   this.size = size;
 }
+
 Order.prototype.pizzaCost = function(){
   let cost = 0; 
 
@@ -43,6 +44,7 @@ Order.prototype.pizzaCost = function(){
   }else{
     alert("choose toppings") 
   }
+
   return this.cost = cost; 
 };
 
@@ -57,6 +59,7 @@ Order.prototype.finalCost = function (){
   for (var arrayValue = 0; arrayValue < totalPrice.length; arrayValue++) {
     cartTotalPrice += totalPrice[arrayValue];
   }
+
   return cartTotalPrice;
 };
 
@@ -65,6 +68,7 @@ $(document).ready(function () {
   $("#check-out").click(function () {});
   $("#chosen-pizza").submit(function (event) {
     event.preventDefault();
+
     var size = $("select#size").val();
     var crust = $("select#crust").val();
     var toppings = $("select#toppings").val();
@@ -82,6 +86,7 @@ $(document).ready(function () {
     $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
     // $("#size, #crust, #toppings,").val("");
   });
+
   $("#input-pizza").click(function () {
     $("#deliver").toggle();
   });
@@ -89,11 +94,14 @@ $(document).ready(function () {
   $("#check-out").click(function () {
     $("#pizza-details").toggle();
   });
+
   $("form#address-form").submit(function (event) {
     $(".address-form").toggle();
     event.preventDefault();
+
     var address = $("input#location").val();
     var newAddress = new Address(address);
+    
     $("#delivery-option").text("Your pizza will be delivered to: " + newAddress.deliveryAddress);
   });
 });
