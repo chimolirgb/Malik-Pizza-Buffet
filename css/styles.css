@@ -22,3 +22,23 @@ card33{
     font: x-large;
     
 }
+#end{
+    font-size: xx-large;
+    font-weight: 500;
+    font: xx-large;
+    background-image: url(../images/plain4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h5{
+    font: xx-large;
+    font-weight: 600;
+}
+h4{
+    font: xx-large;
+    font-weight: 600;  
+}
+.menus{
+    background-image: url(../images/plain4.svg);
+    background-size: cover;
+}
