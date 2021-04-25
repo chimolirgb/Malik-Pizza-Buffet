@@ -36,7 +36,7 @@ https://github.com/chimolirgb/Malik-Pizza-Buffet
 6. Git
 
 # Live Site
-https://chimolirgb.github.io/fictional-studio/
+ https://chimolirgb.github.io/Malik-Pizza-Buffet/
 
 # Licence
 The project is under the [MIT](LICENSE) license
