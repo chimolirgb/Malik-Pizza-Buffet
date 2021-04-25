@@ -19,9 +19,9 @@
     
 }
 #end{
-    font-size: xx-large;
+    font-size: large;
     font-weight: 500;
-    font: xx-large;
+    font: large;
     background-image: url(../images/plain4.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,16 +40,23 @@ h4{
     overflow: hidden;
 }
 .imgstyle{
- width: 400px;
- height: 300px;
+ width: 300px;
+ height: 250px;
  object-position: center;
+ overflow: hidden;
  
 
 }
 
-.images{
+h1{
+    text-align: center;
+    
     
 }
 #pizza-details{
     display: none;
+}
+.images{
+    align-items: center;
+    border: 1px;
 }
