@@ -90,3 +90,10 @@ h1{
     font-size: xx-large;
     font-style: oblique;
 }
+
+.imgstyle1{
+    width: 100px;
+    height: 100px;
+  object-position: center;
+  padding: 20px;
+}
