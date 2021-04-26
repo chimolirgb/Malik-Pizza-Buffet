@@ -14,6 +14,7 @@
 
 <body>
 	<div class="container">
+		<div id="back">
 		<div class="logo">
 			<img src="./images/pizza1.jpeg" alt="logo">
 			<p>We provide the best services</p>
@@ -48,29 +49,46 @@
 				<div class="row text-center">
 					<h1 class="text-center text-white" id="menu">Menu</h1>
 					<div class='col-md-4'>
-						<div class="card33" style="width: 12rem;">
+						<div class="card33" style="width: 16rem;">
 							<div class="card-body">
-								<h5 class="card-title">Small Size</h5>
-								<img  src="./images/small.jpeg" alt="small"  class="imgstyle">
+								<div id="hover1" class="hover">
+									<div id="imgtext1" class="imgtext">
+										<h7><strong>Chicken Tikka</strong></h7>
+									</div>
+									<h5 class="card-title">Small Size</h5>
+									<img src="./images/small.jpeg" alt="small" class="imgstyle">
+								</div>
 								<imgcaption class="text-center text-white"><br> Ksh. 500</imgaption>
 							</div>
 						</div>
 					</div>
 					<br>
 					<div class="col-md-4">
-						<div class="card2" style="width: 12rem;">
+						<div class="card2" style="width: 16rem;">
 							<div class="card-body">
 								<h5 class="card-title">Medium Size</h5>
-								<img  src="./images/medium.jpeg" alt="medium"  class="imgstyle">
+								<div id="hover2" class="hover">
+									<div id="imgtext2" class="imgtext">
+										<h5><strong>Veg Tikka</strong></h5>
+									</div>
+									<img src="./images/medium.jpeg" alt="medium" class="imgstyle">
+								</div>
 								<imgcaption class="text-center text-white"><br>Ksh. 1000</imgcaption>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="card3" style="width: 12rem;">
+						<div class="card3" style="width: 16rem;">
 							<div class="card-body">
 								<h5 class="card-title">Large Size</h5>
-								<img  src="./images/pizz.jpeg" alt="large-pizza" class="imgstyle">
+								<div id="hover3" class="hover">
+									<div id="imgtext3" class="imgtext">
+										<h5>
+											<stong>Hawaiian.</stong>
+										</h5>
+									</div>
+									<img src="./images/pizz.jpeg" alt="large-pizza" class="imgstyle">
+								</div>
 								<imgcaption class="text-center text-white"><br>Ksh. 1300</imgcaption>
 							</div>
 						</div>
@@ -140,12 +158,12 @@
 					<form action="" class="form-group col-sm-10 data" id="address-form">
 						<h4>If Delivery:</h4>
 
-						 <label>Choose mode of picking:</label>
+						<label>Choose mode of picking:</label>
 						<select class="custom-select custom-select-md mb-3" id="choice" needed>
 							<option value="">---</option>
 							<option value="Yes">Yes</option>
 							<option value="No">No</option>
-							<br> 
+							<br>
 
 							<input id="location" type="text" class="form-control cdata"
 								placeholder="Enter your location: " needed>
@@ -166,6 +184,7 @@
 			</div>
 		</div>
 		<p class="copyright"> © 2021 Malik-Pizza-Buffet </p>
+	</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.6.0.js"
 		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">

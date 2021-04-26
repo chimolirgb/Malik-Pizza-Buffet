@@ -116,3 +116,18 @@ $(document).ready(function () {
     $("#delivery-option").text("Your pizza will be delivered to: " + newAddress.deliveryAddress);
   });
 });
+
+
+$(document).ready(function(){
+  $("#hover1").hover(function(){
+  $("#imgtext1").toggle();
+  });
+  
+  $("#hover2").hover(function(){
+      $("#imgtext2").toggle();
+      });
+  
+      $("#hover3").hover(function(){
+          $("#imgtext3").toggle();
+          }); 
+        });

@@ -59,4 +59,34 @@ h1{
 .images{
     align-items: center;
     border: 1px;
+
+}
+
+.hover {
+	position: relative;
+	/* overflow: hidden; */
+} 
+
+.imgtext {
+     position: absolute;
+	width: 50%;
+	height: 50%;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 5px solid white;
+	text-align: justify;
+	padding: 3px;
+	display: none;  
+} 
+
+#back{
+    background-image: url(../images/back1.jpg);
+}
+
+.copyright{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
 }
